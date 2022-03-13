@@ -1,9 +1,9 @@
 .logo {
   text-align: left;
-  padding: 2.6rem 1rem;
+  padding: 1rem 1rem;
 
   img {
-    width: 200px;
+    width: 150px;
   }
 }
 
@@ -14,7 +14,7 @@
 
 .mat-divider {
   border-top-width: 2px;
-  border-color: white;
+  border-color: #d6d6d6;
 }
 
 .mat-list-item {
@@ -26,10 +26,10 @@
   ::ng-deep {
     .mat-list-item-content {
       border-radius: 5px;
-      margin: 0 8px;
+      margin: 0 2px;
 
       &:hover {
-        background: #ffffff !important;
+        background-image: linear-gradient(270deg, #ffffff, #2571b3) !important;
       }
     }
   }
@@ -39,7 +39,7 @@
   color: #000000 !important;
   ::ng-deep {
     .mat-list-item-content {
-      background: #ffffff !important;
+      background-image: linear-gradient(270deg, #ffffff, #3c89cc) !important;
     }
   }
 }

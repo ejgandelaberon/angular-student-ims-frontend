@@ -1,7 +1,15 @@
+<div class="mat-elevation-z5 position-relative page-header">User Accounts</div>
 <div class="container-fluid page">
-    <div class="page__content shadow p-3 position-relative">
-        <div class="page__content-data position-absolute text-center">
-            User Accounts
-        </div>
+  <div class="page__content shadow p-3 position-relative">
+
+    <div class="container m-2"></div>
+
+    <div class="add-btn">
+      <!-- <h1 class="header">User Accounts</h1> -->
+      <app-button btnClass="{{button.add.btnClass}}" text="{{button.add.text}}"></app-button>
     </div>
+
+    <app-users-table></app-users-table>
+
+  </div>
 </div>

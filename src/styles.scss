@@ -1,5 +1,45 @@
 //font
-@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
-@import "../node_modules/@angular/material/prebuilt-themes/deeppurple-amber.css";
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+// @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+// @import "../node_modules/@angular/material/prebuilt-themes/deeppurple-amber.css";
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+.page-header {
+  text-align: center;
+  font-size: 2rem;
+  background: #ffffff;
+  width: 30%;
+  padding: 25px 5px 25px 5px;
+  margin-top: 25px;
+  margin-left: 1rem;
+  z-index: 2;
+}
+
+.page {
+  color: black;
+  padding: 0 1rem;
+
+  &__content {
+    min-height: calc(100vh - 160px);
+    border-radius: 6px;
+    margin-top: -3.3rem;
+    margin-left: 1rem;
+    background: white;
+    color: black;
+    z-index: 1;
+  }
+}
+
+.add-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-bottom: 2rem;
+}

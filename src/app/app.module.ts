@@ -32,6 +32,8 @@ import { ButtonComponent } from './components/button/button.component';
 import { TableComponent } from './components/table/table.component';
 import { DataPropertyGetterPipe } from './components/table/data-property-getter.pipe';
 import { UsersTableComponent } from './components/users-table/users-table.component';
+import { StudentsComponent } from './pages/students/students.component';
+import { StudentsTableComponent } from './components/students-table/students-table.component';
 
 
 
@@ -47,7 +49,9 @@ import { UsersTableComponent } from './components/users-table/users-table.compon
     ButtonComponent,
     TableComponent,
     DataPropertyGetterPipe,
-    UsersTableComponent
+    UsersTableComponent,
+    StudentsComponent,
+    StudentsTableComponent
   ],
   imports: [
     BrowserModule,

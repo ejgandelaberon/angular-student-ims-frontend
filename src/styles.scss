@@ -19,6 +19,8 @@ body {
   padding: 25px 5px 25px 5px;
   margin-top: 25px;
   margin-left: 1rem;
+  border-left: 6px solid #455cc0;
+  border-top-left-radius: 20px;
   z-index: 2;
 }
 
@@ -33,6 +35,10 @@ body {
     margin-left: 1rem;
     background: white;
     color: black;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 20px;
+    border-color: #d4d6e6;
     z-index: 1;
   }
 }

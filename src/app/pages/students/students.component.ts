@@ -1,11 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-user-accounts',
-  templateUrl: './user-accounts.component.html',
-  styleUrls: ['./user-accounts.component.scss']
+  selector: 'app-students',
+  templateUrl: './students.component.html',
+  styleUrls: ['./students.component.scss']
 })
-export class UserAccountsComponent implements OnInit {
+export class StudentsComponent implements OnInit {
   button = {
     add: {text: 'Add User', btnClass: '', color: 'primary'},
     edit: {text: 'Edit', btnClass: '', color: 'accent'},
@@ -18,5 +18,3 @@ export class UserAccountsComponent implements OnInit {
   }
 
 }
-
-

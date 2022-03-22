@@ -11,6 +11,9 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatDividerModule } from '@angular/material/divider';
 import { MatListModule } from '@angular/material/list';
 import { MatButtonModule } from '@angular/material/button';
+import { MatDialogModule } from '@angular/material/dialog';
+import { MatSelectModule } from '@angular/material/select';
+import { MatSnackBarModule } from '@angular/material/snack-bar';
 
 //Data I/O Modules
 import { MatTableModule } from '@angular/material/table';
@@ -34,6 +37,7 @@ import { DataPropertyGetterPipe } from './components/table/data-property-getter.
 import { UsersTableComponent } from './components/users-table/users-table.component';
 import { StudentsComponent } from './pages/students/students.component';
 import { StudentsTableComponent } from './components/students-table/students-table.component';
+import { StudentFormComponent } from './components/forms/student-form/student-form.component';
 
 
 
@@ -51,7 +55,8 @@ import { StudentsTableComponent } from './components/students-table/students-tab
     DataPropertyGetterPipe,
     UsersTableComponent,
     StudentsComponent,
-    StudentsTableComponent
+    StudentsTableComponent,
+    StudentFormComponent
   ],
   imports: [
     BrowserModule,
@@ -71,7 +76,10 @@ import { StudentsTableComponent } from './components/students-table/students-tab
     FormsModule,
     ReactiveFormsModule,
     HttpClientModule,
-    MatButtonModule
+    MatButtonModule,
+    MatDialogModule,
+    MatSelectModule,
+    MatSnackBarModule
   ],
   providers: [],
   bootstrap: [AppComponent]
